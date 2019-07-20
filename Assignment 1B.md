@@ -15,7 +15,7 @@ Kernels are 3x3 matrix which are use to extract features from an image.Hence the
 Q2.Why should we only (well mostly) use 3x3 Kernels?<br/>
 Because we can obtain obtain any size of output by repetative use of 3x3 kernels(mostly odd to obtain symmetry)
 
-<b>Example:<b>
+<b>Example:<b/>
 
 9x9 <b>conv</b> 3x3 ---->7x7 <b>conv</b> 3x3 ---->5x5 <b>conv</b> 3x3 ---->3x3 <b>conv</b> 3x3 ----> 1x1
 
