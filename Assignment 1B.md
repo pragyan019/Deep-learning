@@ -17,7 +17,7 @@ Because we can obtain obtain any size of output by repetative use of 3x3 kernels
 
 <b>Example:<b/>
 
-9x9 <b>conv</b> 3x3 ---->7x7 <b>conv</b> 3x3 ---->5x5 <b>conv</b> 3x3 ---->3x3 <b>conv</b> 3x3 ----> 1x1
+9x9 <b>conv<b/> 3x3 ---->7x7 <b>conv<b/> 3x3 ---->5x5 <b>conv<b/> 3x3 ---->3x3 <b>conv<b/> 3x3 ----> 1x1
 
 Q3. How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)<br/>
 We need to perform 3x3 convolution operations 99 times to reach 1x1 from 199x199.<br/>
