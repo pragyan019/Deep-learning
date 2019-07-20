@@ -15,14 +15,14 @@ Kernels are 3x3 matrix which are use to extract features from an image.Hence the
 Q2.Why should we only (well mostly) use 3x3 Kernels?<br/>
 Because we can obtain obtain any size of output by repetative use of 3x3 kernels(mostly odd to obtain symmetry)
 
-<b>Example:<b/>
+<b>Example:</b>
 
-9x9 <b>conv<b/> 3x3 ---->7x7 <b>conv<b/> 3x3 ---->5x5 <b>conv<b/> 3x3 ---->3x3 <b>conv<b/> 3x3 ----> 1x1
+9x9 <b>conv</b> 3x3 ---->7x7 <b>conv</b> 3x3 ---->5x5 <b>conv</b> 3x3 ---->3x3 <b>conv</b> 3x3 ----> 1x1
 
 Q3. How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)<br/>
 We need to perform 3x3 convolution operations 99 times to reach 1x1 from 199x199.<br/>
-<b>Calculations<b/>
-199x199 <b>conv<b/> 3x3 ---->197x197<br/>
+<b>Calculations</b>
+199x199 <b>conv</b> 3x3 ---->197x197<br/>
 197x197 <b>conv<b/> 3x3 ---->195x195<br/>
 195x195 <b>conv<b/> 3x3 ---->193x193<br/>
 193x193 <b>conv<b/> 3x3 ---->191x191<br/>
