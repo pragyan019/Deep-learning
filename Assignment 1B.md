@@ -8,7 +8,7 @@ In general an image is composed of many different components/colours but the way
 ![](example.png)<br/><br/>
 
 <b>Kernels</b><br/>
-Kernels are 3x3 matrix which are use to extract features from an image.Hence they are also called "filters" or "feature extarctor".There is one to one relationship between number of incoming channels and number of filters required,one filter per channel.
+Kernels are 3x3 matrix which are use to extract features from an image.Hence they are also called "filters" or "feature extarctor".There is one to one relationship between number of incoming channels of the input image and number of channels of filters i.e if our input image have 3 channels ,our kernel will also have 3 channels.
 
 ![](example_kernel.png)<br/><br/>
 
